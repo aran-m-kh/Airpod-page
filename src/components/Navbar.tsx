@@ -1,8 +1,10 @@
 import { FaApple, FaRegUser} from "react-icons/fa";
-import {MdMenu} from "react-icons/md";
 import { navbarData } from "../data/MockData";
 import { InavbarData } from "../types & intefaces/Types&Interfaces";
 function Navbar() {
+
+  
+  
   return (
     <nav className="py-5 xl:px-24 px-10 flex justify-between items-center text-white z-20 relative">
       
@@ -28,10 +30,6 @@ function Navbar() {
           </button>
         </ul>
       
-      </div>
-
-      <div className="md:hidden">
-          <MdMenu className="text-4xl"/>
       </div>
     
     </nav>
