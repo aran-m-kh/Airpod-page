@@ -1,9 +1,9 @@
 import { InavbarData } from "../types & intefaces/Types&Interfaces"
 import { IHeadphoneData } from "../types & intefaces/Types&Interfaces"
 
-import Img1 from "../assets/1.png";
-import Img2 from "../assets/2.png";
-import Img3 from "../assets/3.png";
+import Img1 from "/images/1.png";
+import Img2 from "/images/2.png";
+import Img3 from "/images/3.png";
 
 export const navbarData : InavbarData[] = [
     { 
